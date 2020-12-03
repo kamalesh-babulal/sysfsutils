@@ -5,8 +5,7 @@ arch:
   - ppc64le
 
 before_script:
- - modprobe virtio_net
- - modprobe virtio_blk
+ - ll /sys/bus/pci/drivers/*
 
 script:
   - ./autogen
