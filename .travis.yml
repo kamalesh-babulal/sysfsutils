@@ -4,6 +4,10 @@ arch:
 #  - amd64
   - ppc64le
 
+before_script:
+ - modprobe virtio_net
+ - modprobe virtio_blk
+
 script:
   - ./autogen
   - ./configure
