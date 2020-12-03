@@ -14,3 +14,6 @@ LDADD = $(top_builddir)/lib/libsysfs.la
 EXTRA_CFLAGS = @EXTRA_CLFAGS@
 AM_CFLAGS = -Wall -W -Wextra -Wstrict-prototypes $(EXTRA_CLFAGS)
 
+test_scripts = build_check
+
+TESTS = $(test_scripts)

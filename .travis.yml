@@ -8,4 +8,5 @@ script:
   - ./autogen
   - ./configure
   - make
+  - sudo make check
   - sudo make install

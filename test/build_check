@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./testlibsysfs 3 ./build-test.log
