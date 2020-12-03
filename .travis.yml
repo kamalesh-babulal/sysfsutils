@@ -13,3 +13,4 @@ script:
 
 after_script:
   - cat ./test/test-suite.log
+  - ls /sys/devices
