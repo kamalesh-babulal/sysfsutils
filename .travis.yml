@@ -5,7 +5,7 @@ arch:
   - ppc64le
 
 before_script:
- - ll /sys/bus/pci/drivers/*
+ - ls -l /sys/bus/pci/drivers/*
 
 script:
   - ./autogen
